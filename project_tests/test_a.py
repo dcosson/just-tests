@@ -18,6 +18,6 @@ class ThisTest(TestCase):
         assert True
 
     def test_bax(self):
-        logging.WARN("Baxter!!!")
+        logging.warn("Baxter!!!")
         sleep_man()
         assert True
